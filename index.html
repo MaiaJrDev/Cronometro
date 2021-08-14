@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title id="tt">Cronometro</title>
+     <script type="text/javascript" src="script.js"></script>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+     <link rel="stylesheet" type="text/css" href="pqp.css">
+</head>
+<body>
+    <div class="quadrado"> 
+        <h1>Cronômetro</h1><br/><br/>
+        <span id="hora" class="timer">00</span>:
+        <span id="minuto" class="timer">00</span>:
+        <span id="segundo" class="timer">00</span>:
+        <span id="decimo" class="timer">00</span><br/><br/>
+        <button class="btn btn-primary" id="btnIniciar" onclick="iniciarCro()">Iniciar</button>
+        <button class="btn btn-primary" id="btnPausar" onclick="pausarCro()">Pausar</button>
+        <button class="btn btn-primary" id="btnZerar" onclick="zerarCro()">Zerar</button>
+
+        <br/><br/><br/><br/><footer id="date"></footer>
+    </div>
+    <script>window.onload = date();</script> 
+</body>
+</html>
